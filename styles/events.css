@@ -1,0 +1,22 @@
+@media screen and (max-width: 900px) {
+  .month {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .agenda {
+    display: none;
+  }
+}
+
+div.content {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.content > h2 {
+  font-size: 24pt;
+}

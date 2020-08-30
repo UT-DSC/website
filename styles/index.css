@@ -1,0 +1,58 @@
+div.content {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.content > h2 {
+  font-size: 64pt;
+  color: #6200EE;
+}
+
+div.content > h3 {
+  font-size: 24pt;
+}
+
+p.vision-text {
+  margin: 0;
+  font-size: 24pt;
+  width: 600px;
+  text-align: center;
+  color: #304FFE;
+}
+
+p.mission-text {
+  margin: 0;
+  font-size: 14pt;
+  width: 600px;
+  text-align: center;
+}
+
+a.contact-us {
+  padding: 1rem 3rem;
+  margin-top: 4rem;
+  border-radius: 4px;
+  background-color: #6200EE;
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 900px) {
+  div.content {
+    margin-top: 0;
+  }
+  
+  div.content > h2 {
+    font-size: 32pt;
+  }
+
+  p.vision-text {
+    font-size: 18pt;
+    width: 80%;
+  }
+
+  p.mission-text {
+    width: 80%;
+  }
+}
