@@ -1,0 +1,48 @@
+div.content {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.content > h2 {
+  font-size: 32pt;
+}
+
+div.person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+div.person h3 {
+  margin-top: 2rem;
+  font-weight: normal;
+}
+
+div.person img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+span.person-row {
+  margin: 5rem 0;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 900px) {
+  span.person-row {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.person {
+    margin: 2rem 0;
+  }
+}

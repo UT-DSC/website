@@ -1,0 +1,10 @@
+div.content {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.content > h2 {
+  font-size: 24pt;
+}
